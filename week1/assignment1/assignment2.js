@@ -4,9 +4,9 @@ const readline = require('readline');
 // Function to display the current time in HH:MM:SS format
 function displayCurrentTime() {
     const now = new Date();
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    const seconds = String(now.getSeconds()).padStart(2, '0');
+    const hours = String(now.getHours())
+    const minutes = String(now.getMinutes())
+    const seconds = String(now.getSeconds())
     const time = `${hours}:${minutes}:${seconds}`;
 
     // Clear the current line and move the cursor to the beginning
