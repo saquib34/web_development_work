@@ -1,0 +1,4 @@
+export PORT=3005
+
+use nodemon
+use postman
